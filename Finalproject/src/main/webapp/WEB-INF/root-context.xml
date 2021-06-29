@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+
+
+	
+	<bean name="UserDao" class="neu.coe.info.dao.UserDAO" scope="request"></bean>
+	<bean name="CourseDao" class="neu.coe.info.dao.CourseDao" scope="request"></bean>
+	<bean name="RegisterDao" class="neu.coe.info.dao.RegisterDao" scope="request"></bean>
+
+		
+</beans>

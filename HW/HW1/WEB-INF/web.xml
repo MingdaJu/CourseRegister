@@ -1,0 +1,79 @@
+<web-app>
+    <servlet>
+      <servlet-name>HW1_Part2</servlet-name>
+      <servlet-class>HW1_Part2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>HW1_Part2</servlet-name>
+      <url-pattern>/HW1_Part2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>HW1_Part3</servlet-name>
+      <servlet-class>HW1_Part3</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>HW1_Part3</servlet-name>
+      <url-pattern>/HW1_Part3</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>HW1_Part4</servlet-name>
+      <servlet-class>HW1_Part4</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>HW1_Part4</servlet-name>
+      <url-pattern>/HW1_Part4</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>HW1_Part5</servlet-name>
+      <servlet-class>HW1_Part5</servlet-class>
+	  
+	  <init-param>
+            <param-name>name1</param-name>
+            <param-value>Yes,Already Get</param-value>
+        </init-param>
+		
+		<init-param>
+			<param-name>name2</param-name>
+			<param-value>Yes,Already Get</param-value>
+		</init-param>
+		
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>HW1_Part5</servlet-name>
+      <url-pattern>/HW1_Part5</url-pattern>
+    </servlet-mapping>
+	
+	 <context-param>
+        <param-name>getInitParameter</param-name>
+        <param-value>Already Get</param-value>
+    </context-param>
+
+    <servlet>
+      <servlet-name>HW1_Part6</servlet-name>
+      <servlet-class>HW1_Part6</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>HW1_Part6</servlet-name>
+      <url-pattern>/HW1_Part6</url-pattern>
+    </servlet-mapping>
+	
+	<context-param>
+     <param-name>address</param-name>
+     <param-value>Already Get</param-value>
+    </context-param>
+
+       
+
+
+    <welcome-file-list>
+        <welcome-file>HW1_Part3.html</welcome-file>
+    </welcome-file-list>
+</web-app>

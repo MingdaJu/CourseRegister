@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <form action="shoppingCart" method="post">
+            <input type="checkbox" name="laptop" value="laptop1">laptop1<br/>                        
+            <input type="checkbox" name="laptop" value="laptop2">laptop2<br/>                       
+            <input type="checkbox" name="laptop" value="laptop3">laptop3<br/><br/>
+            <input type="submit" name="submit" value="Add to Cart" >
+            
+            
+            </form>
+            <form action="shoppingCart" method="get">
+            <input type="hidden" name="option" value="cart">
+            <input  type="submit" name="Submit" value="View Cart"/>
+        </form>
+    </body>
+</html>
